@@ -1,0 +1,6 @@
+---
+- name: Check variables
+  debug:
+    msg:
+    - "Value of varname: {{ varname }}"
+  with_items: "{{ groups['skeleton'] }}"

@@ -1,0 +1,6 @@
+---
+# tasks file for skeleton
+- include: check_variables.yml
+
+#- include: get_stats.yml
+#  when: "'skeleton' in group_names "
